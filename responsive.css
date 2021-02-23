@@ -1,0 +1,288 @@
+@media only screen and (max-width: 1920px){
+	.about_div{
+		padding: 120px 0;
+	}
+	.working_div{
+		padding: 120px 0;
+	}
+	.division_div{
+		padding: 120px 0;
+	}
+}
+@media only screen and (max-width: 1680px){
+	.about_div{
+		padding: 100px 0;
+	}
+	.working_div{
+		padding: 100px 0;
+	}
+	.division_div{
+		padding: 100px 0;
+	}
+}
+@media only screen and (max-width: 1600px){
+	.about_div{
+		padding: 80px 0;
+	}
+	.working_div{
+		padding: 80px 0;
+	}
+	.division_div{
+		padding: 80px 0;
+	}
+}
+@media only screen and (max-width: 1440px){
+	.about_div{
+		padding: 70px 0;
+	}
+	.working_div{
+		padding: 70px 0;
+	}
+	.division_div{
+		padding: 70px 0;
+	}
+}
+@media only screen and (max-width: 1366px){
+	.about_div{
+		padding: 60px 0;
+	}
+	.working_div{
+		padding: 60px 0;
+	}
+	.division_div{
+		padding: 60px 0;
+	}
+}
+@media only screen and (max-width: 1280px){
+	.about_div{
+		padding: 50px 0;
+	}
+	.working_div{
+		padding: 50px 0;
+	}
+	.division_div{
+		padding: 50px 0;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+	.header img{
+		margin-top: 5px;
+	}
+	.caption h2{
+		line-height: 80px;
+		font-size: 48px;
+	}
+	.about_div{
+		padding: 20px 0;
+	}
+	.about_div h2{
+	    font-size: 36px;
+	}
+	.about_div p{
+	    font-size: 20px;
+	}
+	.name_div p{
+		font-size: 24px;
+	}
+	.left_div h3 {
+	    font-size: 30px;
+	}
+	.working_div{
+		padding: 20px 0;
+	}
+	.working_div h2{
+	    font-size: 36px;
+	}
+	.working_div p{
+	    font-size: 20px;
+	}
+	.media-object-section p{
+		font-size: 13px;
+	}
+	.division_div{
+		padding: 20px 0;
+	}
+	.division_div h2{
+	    font-size: 36px;
+	}
+	.division_div p{
+	    font-size: 20px;
+	}
+	.itsolution_img{
+		width: 100%;
+		margin-top: 10px;
+	}
+	.itsolution_text{
+		width: 100%;
+		margin-top: 10px;
+	}
+	.main_it{
+		display: none;
+	}
+	.min_it_tab{
+		display: block;
+	}
+	.itsolution_img img{
+		min-height: auto;
+	}
+}
+
+
+@media only screen and (max-width: 768px){
+	.header .navbar-inverse .navbar-nav>li>a{
+		font-size: 16px;
+	}
+	.header img{
+		margin-top: 10px;
+	}
+	.caption h2{
+		line-height: 50px;
+		font-size: 30px;
+	}
+	.about_div{
+		padding: 10px 0;
+	}
+	.about_div h2{
+	    font-size: 30px;
+	    line-height: 50px;
+	}
+	.about_div p{
+	    font-size: 18px;
+	}
+	.media-object-section p {
+	    font-size: 14px;
+	    height: 350px;
+	}
+	.name_div p{
+		font-size: 18px;
+	}
+	.left_div h3 {
+	    font-size: 22px;
+	}
+	.working_div{
+		padding: 10px 0;
+	}
+	.working_div h2{
+	    font-size: 30px;
+	    line-height: 50px;
+	}
+	.working_div p{
+	    font-size: 18px;
+	}
+	.margintop10{
+		margin-top: 20px;
+	}
+	.division_div{
+		padding: 10px 0;
+	}
+	.division_div h2{
+	    font-size: 30px;
+	    line-height: 50px;
+	}
+	.division_div p{
+	    font-size: 18px;
+	}
+	.itsolution_img{
+		width: 100%;
+		margin-top: 10px;
+	}
+	.itsolution_text{
+		width: 100%;
+		margin-top: 10px;
+	}
+	.main_it{
+		display: none;
+	}
+	.min_it_tab{
+		display: block;
+	}
+	.img-text{
+    
+    position: absolute;
+    left: 19px;
+    bottom: 215px;
+    max-width:400px;
+    border-radius: 5px;
+    color: #fff;
+    z-index: 4;
+    font-size:16px;
+}
+
+}
+@media only screen and (max-width: 480px){
+	.caption{
+		width: 100%;
+		position: absolute;
+		top: 10%;
+		left: 0%;
+	}
+	.caption h2{
+		line-height: 40px;
+		font-size: 24px;
+	}
+	.media-object{
+		margin-top: 20px;
+	}
+	.name_div p{
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.margin_10{
+		margin-bottom: 10px;
+	}
+
+}
+@media only screen and (max-width: 360px){
+	.caption{
+		display: none;
+	}
+	.bottom_div li a{
+		padding: 10px 4px;
+	}
+	.media-object{
+		margin-top: 20px;
+	}
+	.name_div p{
+		font-size: 14px;
+		line-height: 30px;
+	}
+	.ind_inner h4{
+		font-size: 20px;
+	}
+	.flexbox-slider{
+		height: 650px !important;
+	}
+	.flexbox-slider .flexbox-slide .text-block {
+	    position: absolute;
+	    left: 0px !important;
+	    bottom: 0px !important; 
+	    max-width: 400px;
+	    padding: 20px;
+	    border-radius: 5px;
+	    background-color: rgba(0, 0, 0, 0.6);
+	    color: #fff;
+	    z-index: 4;
+	    visibility: hidden;
+	}
+	.direct_div h2{
+		margin-top: 20px;
+	}
+
+}
+@media only screen and (max-width: 320px){
+
+	.bottom_div li a{
+		padding: 0px 4px;
+	}
+	.bottom_div li{
+		margin-top: 10px;
+	}
+	.media-object{
+		margin-top: 20px;
+	}
+	.media-object-section p{
+		height: 250px;
+	}
+
+}
