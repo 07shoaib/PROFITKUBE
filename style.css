@@ -37,7 +37,7 @@ body{
 }
 .header{
 	width: 100%;
-	background-color: #fff;
+	background-color: #e8e8e8c2;
 	transition: all 0s ease 0s;
 	z-index: 999;
 }
