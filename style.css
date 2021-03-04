@@ -934,3 +934,19 @@ h5.widget_title::after {
 	display: none;
 	margin-top: 50px;
 }
+.blue{
+    background: #7abcff;
+    background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); 
+    background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+    background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+    background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); 
+    background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+}
+.ab{
+	font-size: 2em;
+}
+.cont{
+	font-size: 4em;
+}
+
