@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>login</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome.min.cs">
+	<link rel="stylesheet" type="text/css" href="accodian.css">
+
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700" />
+	<link href="https://fonts.googleapis.com/css?family=Merienda:400,700|Poppins:400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+		<div class="header sticky-top">
+			<div class="top_bar ">
+				<div class="container">
+					<div class="col-lg-2 col-md-2 col-sm-3 col-xs-12" style="margin-left:auto; float:right;">
+						<i class="fa fa-envelope" aria-hidden="true" style="color: #38619c">&nbsp;&nbsp;<a href="#">email@profitkube.com or info@profitkube.com</a></i>
+						<a href="signup1.html" style="margin-left: auto;">signup</a>
+						<a href="login.html">/login</a>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+					<img src="./tp.png">
+				</div>
+				<div class="col-lg-7 col-lg-offset-3 col-md-offset-2 col-md-8 col-sm-10 col-xs-6">
+					<nav class="navbar navbar-inverse">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>                        
+								</button>
+							</div>
+							<div class="collapse navbar-collapse" id="myNavbar">
+								<ul class="nav navbar-nav">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="">About Us</a></li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+											Customer dashboard
+										</a>
+										<div class="dropdown-menu">
+											<a class="dropdown-item" href="#">customer investment records</a>
+											<a class="dropdown-item" href="#">earning records</a>
+											<a class="dropdown-item" href="#">referral records</a>
+											<a class="dropdown-item" href="#">withdrawal records </a>
+										</div>
+										<li><a href="tel:080-123-456-7890">Contant Us</a></li>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	<div action="/action_page.php" method="post">	
+		<div class="imgcontainer">
+			<img src="C:\Users\Shoaib Ahmed\Desktop\newproject\new2\images.jpg" alt="Avatar" class="avatar">
+		</div>
+
+		<div class="container ab">
+			<label for="uname"><b>Username</b></label>
+			<input type="text" placeholder="Enter Username" name="uname" required><br>
+
+			<label for="psw"><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="psw" required><br>
+
+			<button type="submit">Login</button>
+			<label><br>
+				<input type="checkbox" checked="checked" name="remember"> Remember me
+			</label>
+		</div>
+
+		<div class="container" style="background-color:#f1f1f100;">
+			<button type="button" class="cancelbtn">Cancel</button>
+			<span class="psw">Forgot <a href="#">password?</a></span>
+		</div>
+    </div>
+	<footer>	
+		<div class="bottom_div">
+      <div class="container">
+        <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
+          <span>profitkube © 2001-2021. All Rights Reserved.</span>
+        </div>
+        <div class="col-lg-4 col-lg-offset-4 col-md-offset-2 col-md-5 col-sm-6 col-xs-12">
+          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true" style="font-size:20px"></i></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true" style="font-size:20px"></i></li>
+              <li><a href="#">Privacy Policy&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+              <li><a href="#">Terms Of Use </a></li>
+            </div>
+          </div>
+        </div>
+    </footer>
+        <script src="jquery-1.11.3.min.js"></script> 
+				<!-- Include all compiled plugins (below), or include individual files as needed -->
+				<script src="bootstrap.min.js"></script>
+
+				<script>
+					$(document).ready(function(){
+						$(window).scroll(function() {
+							if ($(document).scrollTop() > 50) {
+								$(".header").addClass("smaller");
+							} else {
+								$(".header").removeClass("smaller");
+							}
+						});
+					});
+				</script>
+	
+        
+
+</body>
+</html>
